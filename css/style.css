@@ -1,0 +1,317 @@
+body {
+	height: auto;	
+	background-color: #c42d21;
+}
+
+.container {
+	height: auto;
+	background-color: #e9e7e7; 
+	margin-top: 15px;
+	margin-bottom: 15px;	
+	border-top: 10px solid black;
+	border-bottom: 50px solid black;
+	 box-shadow:
+   0 1px 150px rgba(0, 0, 0, .3),
+   -23px 0 20px -23px rgba(0, 0, 0, .8),
+   23px 0 20px -23px rgba(0, 0, 0, .8),
+   0 0 40px rgba(0, 0, 0, .1) inset;
+   padding: 35px 35px 0 35px;
+}
+
+.head a {
+	font-size: 14px;
+	font-family: "HelveticaNeue";
+	color: rgb(89, 89, 89);	
+	text-decoration: none;
+}
+
+.head a:hover {    
+	color: #c42d21;
+}
+
+.head .right {
+	margin-top: 30px;	
+}
+
+.navigation {
+	background: url(../img/navbar.png) no-repeat center top / cover;
+	text-align: center;
+	padding: 0;
+	margin: 5px 0 20px 0;
+	padding: 0 15px 0 15px;
+	border-radius: 5px;
+}
+
+.navigation p {
+	margin: 5px 0 5px 0;
+	font-size: 15px;
+	font-family: "Helvetica";
+	color: rgb(236, 236, 236);	
+}
+
+.navigation .first:hover {
+	background-color: #363636;
+	border-radius: 5px 0 0 5px;
+}
+
+.navigation .middle:hover {
+	background-color: #363636;	
+}
+
+.carousel {
+	margin-bottom: 10px;
+}
+
+.img_black {	
+	width: 100%;
+	height: 323px;	
+}
+
+.content_black {
+	width: 90%;
+	height: 323px;	
+	border-radius: 5px;
+	padding: 0px 20px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+}
+
+.content_black .img {
+	text-align: right;
+}
+
+.content_black .login {
+	font-size: 20px;
+	font-family: "Roboto Condensed";
+	color: rgb(236, 236, 236);
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.content_black .field {
+	width: 100%;
+	padding-left: 10px;
+	margin-bottom: 10px; 
+}
+
+.content_black .check {
+	text-align: right;
+	position: relative;
+	left: 20px;
+	bottom: 4px;
+}
+
+.content_black .label {
+	text-align: left;
+}
+
+.content_black h6 {
+	font-size: 14px;
+	font-family: "HelveticaNeue";
+	color: rgb(228, 231, 231);	
+}
+
+.content_black .button {
+	background-color: #c42d21;
+	font-size: 18px;
+	font-family: "Roboto Condensed";
+	color: rgb(236, 236, 236);
+	font-weight: bold;
+	line-height: 1.222;
+	border-style: none;
+	padding: 5px 20px; 
+	margin: 5px 0 0 0;
+	border-radius: 5px;
+}
+
+.content_black form p {
+	font-size: 20px;
+	font-family: "Roboto Condensed";
+	color: rgb(236, 236, 236);
+	line-height: 1.1;
+	margin: 10px 0 5px 0;
+}
+
+.content .Specialties h4, 
+.content .Works h4 {
+	margin: 10px 0 20px 10px;
+	font-size: 22px;
+	font-family: "HelveticaNeueCE";
+	color: rgb(89, 89, 89);
+	font-weight: bold;
+}
+
+.content .Specialties p {
+	font-size: 14px;
+	font-family: "HelveticaNeue";
+	color: rgb(115, 112, 112);
+	line-height: 0.6;
+	margin-left: 30px;	
+}
+
+.Works img {
+	width: 100%;
+}
+
+.footer h5 {
+	font-size: 23px;
+	font-family: "BebasNeue";
+	color: rgb(235, 232, 232);
+	text-transform: uppercase;
+	margin-top: 10px;
+	position: relative;
+	top: 50px;
+}
+
+.footer p {
+	font-size: 16px;
+	font-family: "Helvetica";
+	color: rgb(236, 236, 236);	
+	text-align: right;
+	margin-top: 10px;
+	position: relative;
+	top: 50px;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+.container {
+	height: auto;
+}
+
+.black_box {
+	height: 300px;
+}
+
+.img_black {
+	width: 100%;
+	height: 100%;
+}
+
+.content_black {
+	top: 30px;
+}
+
+.content_black .img {
+	position: relative;
+	right: 60px;
+}
+
+.content_black .login {
+	position: relative;
+	right: 60px;
+}
+
+.content_black .field {
+	width: 40%;
+}
+
+.content_black .check {
+	left: 40px;
+}
+
+.content_black .label {
+	position: relative;
+	left: 20px;
+}
+
+.navigation img {
+	right: 255px;
+	width: 70px;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+
+.head {
+	text-align: center;
+}
+
+.head .right {
+	margin-bottom: 20px;	
+}
+
+.navigation {
+	background-color: #b43729;
+	border-bottom: 30px solid #333333;
+}
+
+.navigation .black {
+	width: 100%;
+	position: absolute;			
+}
+
+.navigation .first:hover {	
+	border-radius: 5px 5px 0 0;
+}
+
+.black_box {
+	height: 375px;
+}
+
+.content_black .img {
+	text-align: center;
+	position: static;
+}
+
+.content_black .login {
+	text-align: center;
+	position: static;
+}
+
+.content_black .check {
+	position: static;
+	text-align: center;
+}
+
+.content_black .label {
+	position: static;
+	text-align: center;
+}
+
+.navigation img {
+	width: 0%;
+	height: 0%;
+}
+
+.navigation_red {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.footer h5 {
+	top: 95px;
+}
+
+}
+
+@media screen and (max-width: 576px) {
+
+.container {
+	border-bottom: 70px solid black;
+}
+
+.footer h5 {
+	position: static;
+	text-align: center;
+	position: relative;
+	top: 80px;
+	margin-top: 0;
+}
+
+.footer p {
+	position: static;
+	text-align: center;
+	position: relative;
+	top: 80px;
+	margin-top: 0;
+}
+
+}
